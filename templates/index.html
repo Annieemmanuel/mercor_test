@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Repository Analyzer</title>
+</head>
+<body>
+  <h1>GitHub Repository Analyzer</h1>
+  <form id="githubForm">
+    <label for="githubUrl">Enter GitHub User URL:</label>
+    <input type="text" id="githubUrl" name="githubUrl" required>
+    <button type="submit">Analyze</button>
+  </form>
+  <div id="resultContainer"></div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
