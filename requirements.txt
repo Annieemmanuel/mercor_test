@@ -2,3 +2,4 @@ flask
 openai
 requests
 .api_key = "YOUR API KEY"
+gunicorn
